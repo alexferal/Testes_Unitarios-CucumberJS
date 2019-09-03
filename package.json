@@ -1,0 +1,23 @@
+{
+  "name": "Testes_Unitarios-CucumberJS",
+  "version": "1.0.0",
+  "description": "Testes unitários em JavaScript  em uma aplicação node utilizando a ferramenta CucumberJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexferal/Testes_Unitarios-CucumberJS.git"
+  },
+  "keywords": ["nodejs", "cucumberjs", "bdd", "javascript"],
+  "author": "Alex Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexferal/Testes_Unitarios-CucumberJS/issues"
+  },
+  "homepage": "https://github.com/alexferal/Testes_Unitarios-CucumberJS#readme",
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  }
+}
