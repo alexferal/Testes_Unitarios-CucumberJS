@@ -24,6 +24,6 @@ When("os dados forem autenticados", function () {
     }
 });
 
-Then("a resposta esperada é {string}", function(mensagem){
+Then("a mensagem esperada é {string}", function(mensagem){
     assert.equal(this.mensagem, mensagem);
 });

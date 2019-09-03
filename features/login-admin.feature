@@ -7,27 +7,27 @@ Funcionalidade: Login de Administrador.
         Dado o login "admin@admin.com"
         E a Senha "1234"
         Quando os dados forem autenticados
-        Então a resposta esperada é "Autenticado."
+        Então a mensagem esperada é "Autenticado."
     
     Cenário: Email vazio
         Dado a Senha "1234"
         Quando os dados forem autenticados
-        Então a resposta esperada é "Campo email é obrigatório."
+        Então a mensagem esperada é "Campo email é obrigatório."
 
     Cenário: Senha vazio
         Dado o login "admin@admin.com"
         Quando os dados forem autenticados
-        Então a resposta esperada é "Campo senha é obrigatório."
+        Então a mensagem esperada é "Campo senha é obrigatório."
 
     Cenário: Email inválido
         Dado o login "admin@admin.com.br"
         E a Senha "1234"
         Quando os dados forem autenticados
-        Então a resposta esperada é "Email e/ou Senha inválidos."
+        Então a mensagem esperada é "Email e/ou Senha inválidos."
 
     Cenário: Senha inválida
         Dado o login "admin@admin.com"
         E a Senha "1235"
         Quando os dados forem autenticados
-        Então a resposta esperada é "Email e/ou Senha inválidos."
+        Então a mensagem esperada é "Email e/ou Senha inválidos."
 
