@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/alexferal/Testes_Unitarios-CucumberJS.git"
   },
-  "keywords": ["nodejs", "cucumberjs", "bdd", "javascript"],
+  "keywords": [
+    "nodejs",
+    "cucumberjs",
+    "bdd",
+    "javascript"
+  ],
   "author": "Alex Fernandes",
   "license": "ISC",
   "bugs": {

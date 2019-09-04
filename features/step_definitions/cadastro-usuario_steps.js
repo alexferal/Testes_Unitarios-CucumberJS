@@ -10,7 +10,7 @@ Given("a idade {}", function (idade) {
 });
 
 When("os dados forem validados", function(){
-    this.mensagem = (this.nome != null && this.idade >=18) ? "Cadastro com sucesso!" : "Falha ao cadastrar!";
+    this.mensagem = (this.nome != null && this.idade >= 18) ? "Cadastro com sucesso!" : "Falha ao cadastrar!";
 });
 
 Then("a resposta esperada é {string}", function(mensagem){
