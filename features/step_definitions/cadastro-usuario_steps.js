@@ -5,7 +5,7 @@ Given("o nome {string}", function (nome) {
     this.nome = nome;
 });
 
-Given("a idade {string}", function (idade) {
+Given("a idade {}", function (idade) {
     this.idade = Number(idade);
 });
 
